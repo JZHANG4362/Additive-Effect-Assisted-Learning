@@ -20,14 +20,14 @@ above different settings of Q and mu to generate simulation results for differen
 ## Section 4.1 of the main text:
 
 The codes are stored in the folder `MIMIC3`. 
-Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, test5_VFL_tuning.ipynb, test6_Plot.ipynb (reproduces the training result in Figure 4 Hospital Length of Stay)
+Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, test5_VFL_tuning.ipynb, test6_Plot.ipynb (reproduces the training result in **Figure 4** Hospital Length of Stay)
 
 ## Section 4.2 of the main text:
 
 The codes are stored in the folder `car_data`.
 test2_testing.py (reproduces the testing result)
-test3_carPlots.py (reproduces Figure 5)
-To reproduce the training result (Figure 4 Car Top Speeds), sequentially run: test4_data_splitting.ipynb,
+test3_carPlots.py (reproduces **Figure 5**)
+To reproduce the training result (**Figure 4** Car Top Speeds), sequentially run: test4_data_splitting.ipynb,
  test5_AE_AL.ipynb, test6_VFL_tuning.ipynb, test7_Plot.ipynb 
 To reproduce the preprocessed data, run: test1_transfer_1.py, test1_transfer_2.py (Remember to download the dataset from
 (http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html), put the folder `compcars` in the `data` folder before running the codes.
@@ -42,18 +42,18 @@ Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the t
 ## Section 13.2 of the Supplement:
 
 The codes are stored in `simulations/Step1_Testing/ridgeTesting` and `simulations/Step2_Training/ridgeFitting`.
-To reproduce Figures 1-5, run ridge_testing.R, graphsH0.ipynb, and graphsH1.ipynb
-To reproduce Figures 6 and 7, run ridgeTrain.R and graphs3.ipynb.
+To reproduce **Figures 1-5**, run ridge_testing.R, graphsH0.ipynb, and graphsH1.ipynb
+To reproduce **Figures 6** and **7**, run ridgeTrain.R and graphs3.ipynb.
 
 ## Section 13.3 of the Supplement:
 
 The codes are stored in `simulations/Step2_Training/EnetFitting_highdim`
-To reproduce Figure 8, run EnetTrain.R and graphs3.ipynb
+To reproduce **Figure 8**, run EnetTrain.R and graphs3.ipynb
 
 ## Section 14 of the Supplement:
 
 The codes are stored in `simulations/Step2_Training_Masking_Y`. 
-To reproduce Figure 9, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
+To reproduce **Figure 9**, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
 
 
 ## Section 18 of the Supplement:
