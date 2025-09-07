@@ -1,6 +1,6 @@
 **Thank you for trying our codes.**
 
-## Sections 19.1 and 19.2 (S1 testing) of the Supplement:
+## Sections 19.1.1 and 19.1.2 (S1 testing for logistic regression) of the Supplement:
 
 The codes are stored in the folder `simulations/Step1_Testing`
 
@@ -12,7 +12,7 @@ The codes are stored in the folder `simulations/Step1_Testing`
 
 - Run `graphsH1.ipynb` to plot rejection rates under H1 (**Figure 13** in the supplement). 
 
-## Sections 18.1 and 18.2 (S2 training) of the Supplement:
+## Sections 19.1.3 (S2 training for logistic regression) of the Supplement:
 
 - run `simulations/Step2_Training/AE_AL/runTrainings.sh`, `simulations/Step2_Training/VFL/trainingVFL.py`, and `simulations/Step2_Training/Plot.ipynb`.
 
@@ -20,9 +20,11 @@ The codes are stored in the folder `simulations/Step1_Testing`
 
 - `Run Plot.ipynb' (**Figure 13** in the supplement)
 
-
-Please change the argument `Model = "logistic"`  in trainingVFL.py to `Model = "normal"`,  `Model = "poisson"`,  and `Model = "logcosh"` and repeat the
-above different settings of Q and mu to generate simulation results for different models
+  
+## Sections 19.2 (Other models) of the Supplement:
+To generate `Figures 15-23`, for the files from the above step,
+change the argument `Model = "logistic"`  in trainingVFL.py to `Model = "normal"`,  `Model = "poisson"`,  and `Model = "logcosh"` and repeat the
+above different settings of Q and mu to generate simulation results for different models.
 
 ## Section 4.1 of the main text:
 
