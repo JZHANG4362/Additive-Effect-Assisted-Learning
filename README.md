@@ -67,7 +67,7 @@ run graphsH1.ipynb to generate graphs.
 
 ## Section 19.4.1 of the Supplement
 
-run `simulations/Step1_Testing_Urobust_randomU/runTests.sh'
+run `simulations/Step1_Testing_Urobust_randomU/runTests.sh`
 run graphsH0.ipynb and graphsH1.ipynb to generate the plots.
 
 Section 19.4.2 of the Supplement
