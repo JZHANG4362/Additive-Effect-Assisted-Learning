@@ -1,6 +1,6 @@
 **Thank you for trying our codes.**
 
-## Sections 18.1 and 18.2 (S1 testing) of the Supplement:
+## Sections 19.1 and 19.2 (S1 testing) of the Supplement:
 
 The codes are stored in the folder `simulations/Step1_Testing`
 
