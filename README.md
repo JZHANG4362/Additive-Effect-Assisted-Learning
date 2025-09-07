@@ -18,7 +18,7 @@ The codes are stored in the folder `simulations/Step1_Testing`
 
   (Note: trainingVFL.py needs to be run multiple times with settings {Q=5, 10, or 25, mu =0, or 0.1} and {Q = 1, mu = 0})  
 
-- `Run Plot.ipynb' (**Figure 13** in the supplement)
+- `Run Plot.ipynb` (**Figure 13** in the supplement).
 
   
 ## Sections 19.2 (Other models) of the Supplement:
@@ -29,7 +29,7 @@ above different settings of Q and mu to generate simulation results for differen
 ## Section 4.1 of the main text:
 
 The codes are stored in the folder `MIMIC3`. 
-Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, test5_VFL_tuning.ipynb, test6_Plot.ipynb (reproduces the training result in **Figure 4** Hospital Length of Stay)
+Sequentially run: `test1_dataProcessing.ipynb', `test2_testing.py' (reproduces the testing result), `test3_data_splitting.ipynb', `test4_AE_AL.ipynb', `test5_VFL_tuning.ipynb', `test6_Plot.ipynb' (reproduces the training result in **Figure 4** Hospital Length of Stay)
 
 ## Section 4.2 of the main text:
 
