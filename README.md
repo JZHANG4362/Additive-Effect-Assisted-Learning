@@ -6,18 +6,21 @@ The codes are stored in the folder `simulations/Step1_Testing`
 
 - Run `runTests.sh` to obtain experiment results.
 
-- Run `graphsH0.ipynb` to generate Q-Q plots.
+- Run `graphsH0.ipynb` to generate Q-Q plots (**Figure 12** in the supplement).
 
-- Run `tableH0_rejectionrates.ipynb` to generate a table of rejection rates under H0.
+- Run `tableH0_rejectionrates.ipynb` to generate a table of rejection rates under H0 (**Table 4** in the supplement).
 
-- Run `graphsH1.ipynb` to plot rejection rates under H1. (`graphsH1_logistic_maintext_test.ipynb` for logistic rejection)
+- Run `graphsH1.ipynb` to plot rejection rates under H1 (**Figure 13** in the supplement). 
 
 ## Sections 18.1 and 18.2 (S2 training) of the Supplement:
 
-run `simulations/Step2_Training/AE_AL/runTrainings.sh`, 
-`simulations/Step2_Training/VFL/trainingVFL.py`, and `simulations/Step2_Training/Plot.ipynb`
- (Note: trainingVFL.py needs to be run multiple times with settings {Q=5, 10, or 25, mu =0, or 
-0.1} and {Q = 1, mu = 0})  Run Plot.ipynb
+- run `simulations/Step2_Training/AE_AL/runTrainings.sh`, `simulations/Step2_Training/VFL/trainingVFL.py`, and `simulations/Step2_Training/Plot.ipynb`.
+
+  (Note: trainingVFL.py needs to be run multiple times with settings {Q=5, 10, or 25, mu =0, or 0.1} and {Q = 1, mu = 0})  
+
+- `Run Plot.ipynb' (**Figure 13** in the supplement)
+
+
 Please change the argument `Model = "logistic"`  in trainingVFL.py to `Model = "normal"`,  `Model = "poisson"`,  and `Model = "logcosh"` and repeat the
 above different settings of Q and mu to generate simulation results for different models
 
