@@ -50,39 +50,41 @@ For Mac or Linux, you may need to zip and then unzip a file.)
 ## Section 4.3 of the main text:
 
 The codes are stored in the folder `kddcup99-mld`.
-Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, and test6_Plot.ipynb (reproduces the training result in Figure DoS Attack).
+Sequentially run: `test1_dataProcessing.ipynb`, `test2_testing.py` (reproduces the testing result), `test3_data_splitting.ipynb`, `test4_AE_AL.ipynb`, and `test6_Plot.ipynb` (reproduces the training result in **Figure 4** DoS Attack).
 
 ## Section 13.2 of the Supplement:
 
 The codes are stored in `simulations/Step1_Testing/ridgeTesting` and `simulations/Step2_Training/ridgeFitting`.
-To reproduce **Figures 1-5**, run ridge_testing.R, graphsH0.ipynb, and graphsH1.ipynb
-To reproduce **Figures 6** and **7**, run ridgeTrain.R and graphs3.ipynb.
+To reproduce **Figures 1-5**, run `ridge_testing.R`, `graphsH0.ipynb`, and `graphsH1.ipynb`.
+To reproduce **Figures 6** and **7**, run `ridgeTrain.R` and `graphs3.ipynb`.
 
 ## Section 13.3 of the Supplement:
 
 The codes are stored in `simulations/Step2_Training/EnetFitting_highdim`
-To reproduce **Figure 8**, run EnetTrain.R and graphs3.ipynb
+To reproduce **Figure 8**, run `EnetTrain.R` and `graphs3.ipynb`.
 
 ## Section 14 of the Supplement:
 
 The codes are stored in `simulations/Step2_Training_Masking_Y`. 
-To reproduce **Figure 9**, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
+To reproduce **Figure 9**, run `runTests.sh`, `graphsH0.ipynb`, and `graphsH1.ipynb`.
 
 
 ## Section 18 of the Supplement:
 
-Check `car_data_extended_experiments/README.txt`
+Check `car_data_extended_experiments/README.txt` (**Figure 11** of the supplement).
 
 ## Section 19.3 of the Supplement:
 
-run `simulations/Step1_Testing_trade_off_experiment/runTests.sh`
-run graphsH1.ipynb to generate graphs.
+- run `simulations/Step1_Testing_trade_off_experiment/runTests.sh`
+  
+- run `graphsH1.ipynb` to generate graphs (**Figure 24-30** in the supplement).
 
 ## Section 19.4.1 of the Supplement
 
-run `simulations/Step1_Testing_Urobust_randomU/runTests.sh`
-run graphsH0.ipynb and graphsH1.ipynb to generate the plots.
+- run `simulations/Step1_Testing_Urobust_randomU/runTests.sh`
+- 
+- run `graphsH0.ipynb` and `graphsH1.ipynb` to generate the plots (**Figure 32** and **33** in the supplement).
 
 ## Section 19.4.2 of the Supplement
-run `simulations/Step1_Testing_Urobust_fixedU/runTests_Urobust.sh`  and `simulations/Step1_Testing_Urobust_fixedU/Counts.ipynb`  
+run `simulations/Step1_Testing_Urobust_fixedU/runTests_Urobust.sh`  and `simulations/Step1_Testing_Urobust_fixedU/Counts.ipynb` (**Tables 5** and **6** in the supplement).  
 
