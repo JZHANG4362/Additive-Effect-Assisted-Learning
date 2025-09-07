@@ -1,6 +1,6 @@
 - The original data of this study come from [MIMIC-III, a freely accessible critical care database][MIMIC]. To get access to the data set, please apply through [physionet][physionet] and complete the required trainings.
 
-- For illustration purpose, we replace the original dataset by a simulated one.
+- For illustration purpose, we replace the original dataset by a simulated one, stored in `MIMIC_simulated_data.csv`.
 
 
 
