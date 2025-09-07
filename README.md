@@ -39,10 +39,10 @@ The codes are stored in the folder `car_data`.
 - `test2_testing.py` (reproduces the testing result)
 
 - `test3_carPlots.py` (reproduces **Figure 5**)
-- 
-To reproduce the training result (**Figure 4** Car Top Speeds), sequentially run: `test4_data_splitting.ipynb`, `test5_AE_AL.ipynb`, `test6_VFL_tuning.ipynb`, `test7_Plot.ipynb`.
 
-To reproduce the preprocessed data, run: `test1_transfer_1.py`, `test1_transfer_2.py` (Remember to download the dataset from
+- To reproduce the training result (**Figure 4** Car Top Speeds), sequentially run: `test4_data_splitting.ipynb`, `test5_AE_AL.ipynb`, `test6_VFL_tuning.ipynb`, `test7_Plot.ipynb`.
+
+- To reproduce the preprocessed data, run: `test1_transfer_1.py`, `test1_transfer_2.py` (Remember to download the dataset from
 (http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html), put the folder `compcars` in the `data` folder before running the codes.
 Make sure to follow the steps in https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt.
 For Mac or Linux, you may need to zip and then unzip a file.)
