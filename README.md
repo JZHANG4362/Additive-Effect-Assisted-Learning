@@ -14,7 +14,7 @@ run `simulations/Step2_Training/AE_AL/runTrainings.sh`,
 `simulations/Step2_Training/VFL/trainingVFL.py`, and `simulations/Step2_Training/Plot.ipynb`
  (Note: trainingVFL.py needs to be run multiple times with settings {Q=5, 10, or 25, mu =0, or 
 0.1} and {Q = 1, mu = 0})  Run Plot.ipynb
-Please change the argument Model = "logistic"  in trainingVFL.py to Model = "normal",  Model = "poisson",  and Model = "logcosh" and repeat the
+Please change the argument `Model = "logistic"`  in trainingVFL.py to `Model = "normal"`,  `Model = "poisson"`,  and `Model = "logcosh"` and repeat the
 above different settings of Q and mu to generate simulation results for different models
 
 ## Section 4.1 of the main text:
@@ -24,7 +24,7 @@ Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the t
 
 ## Section 4.2 of the main text:
 
-The codes are stored in the folder ‘car_data’.
+The codes are stored in the folder `car_data`.
 test2_testing.py (reproduces the testing result)
 test3_carPlots.py (reproduces Figure 5)
 To reproduce the training result (Figure 4 Car Top Speeds), sequentially run: test4_data_splitting.ipynb,
@@ -36,7 +36,7 @@ For Mac or Linux, you may need to zip and then unzip a file.)
 
 ## Section 4.3 of the main text:
 
-The codes are stored in the folder ‘kddcup99-mld’.
+The codes are stored in the folder `kddcup99-mld`.
 Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, and test6_Plot.ipynb (reproduces the training result in Figure DoS Attack).
 
 ## Section 13.2 of the Supplement:
@@ -52,7 +52,7 @@ To reproduce Figure 8, run EnetTrain.R and graphs3.ipynb
 
 ## Section 14 of the Supplement:
 
-The codes are stored in ‘simulations/Step2_Training_Masking_Y`. 
+The codes are stored in `simulations/Step2_Training_Masking_Y`. 
 To reproduce Figure 9, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
 
 
