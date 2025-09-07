@@ -1,6 +1,6 @@
 Download the dataset from
 (http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
-and put the folder 'compcars' in the 'data' folder.
+and put the folder `compcars` in the `data` folder.
 Make sure to follow the steps in https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt.
 For Mac or Linux, you may need to zip and then unzip a file.
 
