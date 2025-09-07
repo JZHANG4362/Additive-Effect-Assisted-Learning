@@ -19,7 +19,7 @@ above different settings of Q and mu to generate simulation results for differen
 
 ## Section 4.1 of the main text:
 
-The codes are stored in the folder ‘MIMIC3’. 
+The codes are stored in the folder `MIMIC3`. 
 Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the testing result), test3_data_splitting.ipynb, test4_AE_AL.ipynb, test5_VFL_tuning.ipynb, test6_Plot.ipynb (reproduces the training result in Figure 4 Hospital Length of Stay)
 
 ## Section 4.2 of the main text:
