@@ -41,18 +41,18 @@ Sequentially run: test1_dataProcessing.ipynb, test2_testing.py (reproduces the t
 
 ## Section 13.2 of the Supplement:
 
-The codes are stored in ‘simulations/Step1_Testing/ridgeTesting’ and ‘simulations/Step2_Training/ridgeFitting’.
+The codes are stored in `simulations/Step1_Testing/ridgeTesting` and `simulations/Step2_Training/ridgeFitting`.
 To reproduce Figures 1-5, run ridge_testing.R, graphsH0.ipynb, and graphsH1.ipynb
 To reproduce Figures 6 and 7, run ridgeTrain.R and graphs3.ipynb.
 
 ## Section 13.3 of the Supplement:
 
-The codes are stored in ‘simulations/Step2_Training/EnetFitting_highdim  ’
+The codes are stored in `simulations/Step2_Training/EnetFitting_highdim`
 To reproduce Figure 8, run EnetTrain.R and graphs3.ipynb
 
 ## Section 14 of the Supplement:
 
-The codes are stored in ‘simulations/Step2_Training_Masking_Y’. 
+The codes are stored in ‘simulations/Step2_Training_Masking_Y`. 
 To reproduce Figure 9, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
 
 
