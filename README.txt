@@ -1,13 +1,13 @@
 Thank you for trying our codes.
 
-Sections 18.1 and 18.2 (S1 testing) of the Supplement:
+## Sections 18.1 and 18.2 (S1 testing) of the Supplement:
 The codes are stored in the folder `simulations/Step1_Testing'
 Run runTests.sh to obtain experiment results.
 Run graphsH0.ipynb to generate Q-Q plots.
 Run tableH0_rejectionrates.ipynb to generate a table of rejection rates under H0.
 Run graphsH1.ipynb to plot rejection rates under H1. (graphsH1_logistic_maintext_test.ipynb for logistic rejection)
 
-Sections 18.1 and 18.2 (S2 training) of the Supplement:
+## Sections 18.1 and 18.2 (S2 training) of the Supplement:
 run `simulations/Step2_Training/AE_AL/runTrainings.sh', 
 `simulations/Step2_Training/VFL/trainingVFL.py', and `simulations/Step2_Training/Plot.ipynb'
  (Note: trainingVFL.py needs to be run multiple times with settings {Q=5, 10, or 25, mu =0, or 
@@ -46,6 +46,7 @@ To reproduce Figure 8, run EnetTrain.R and graphs3.ipynb
 Section 14 of the Supplement:
 The codes are stored in ‘simulations/Step2_Training_Masking_Y’. 
 To reproduce Figure 9, run runTests.sh, graphsH0.ipynb, and graphsH1.ipynb
+
 
 Section 18 of the Supplement:
 Check `car_data_extended_experiments/README.txt'
